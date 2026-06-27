@@ -65,7 +65,7 @@ public class ConditionalWaitAlert {
 		//handle sync issue
 		
 		
-		WebDriverWait wait = new WebDriverWait(driver, 120);
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
 		wait.until(ExpectedConditions.alertIsPresent());
 		
 		

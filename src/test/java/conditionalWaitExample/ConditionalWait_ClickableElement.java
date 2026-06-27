@@ -64,7 +64,7 @@ public class ConditionalWait_ClickableElement {
 		//handle sync issue
 		
 		
-		WebDriverWait wait = new WebDriverWait(driver, 60);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
 		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.id("submitButton"))));
 		
 		

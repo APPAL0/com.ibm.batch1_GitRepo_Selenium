@@ -68,7 +68,7 @@ public class ConditionalWait_Element {
         
         //wait for the element to be visible
     	
-        WebDriverWait wait = new WebDriverWait(driver, 60);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("text3")));
       
         driver.findElement(By.id("text3")).sendKeys("enter value into textbox3");
