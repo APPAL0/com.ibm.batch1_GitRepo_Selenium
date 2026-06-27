@@ -31,12 +31,12 @@ public class PopUpTest {
 		System.out.println("closing application");
 		driver.switchTo().window(window1);
                 Thread.sleep(5000);
-		driver.close();
+		//driver.close();
 		
 	//	Thread.sleep(5000);
 		//close the application
 	//	driver.close();  // -------- close the current browser instance
-		//driver.quit();	// ----------- close all the browser instance which are opened by driver
+		driver.quit();	// ----------- close all the browser instance which are opened by driver
 
 }
 
