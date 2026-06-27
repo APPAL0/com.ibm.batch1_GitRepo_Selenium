@@ -30,7 +30,7 @@ public class PopUpTest {
 		
 		System.out.println("closing application");
 		driver.switchTo().window(window1);
-                Thread.sleep(3000);
+                Thread.sleep(5000);
 		driver.close();
 		
 	//	Thread.sleep(5000);
@@ -112,14 +112,18 @@ public class PopUpTest {
 		
 		
 		driver.switchTo().window(window2);
+                Thread.sleep(5000);
 		System.out.println("Application title of Window2: " + driver.getTitle());
+
 		driver.close();
 		
 		driver.switchTo().window(window3);
+                Thread.sleep(5000);
 		System.out.println("Application title of window3: " + driver.getTitle());
 		driver.close();
 		
 		driver.switchTo().window(window4);
+                Thread.sleep(5000);
 		System.out.println("Application title of window4: " + driver.getTitle());
 		driver.close();
 		Thread.sleep(5000);
