@@ -30,6 +30,7 @@ public class PopUpTest {
 		
 		System.out.println("closing application");
 		driver.switchTo().window(window1);
+                Thread.sleep(3000);
 		driver.close();
 		
 	//	Thread.sleep(5000);
