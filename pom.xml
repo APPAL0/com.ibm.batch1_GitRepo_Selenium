@@ -83,11 +83,12 @@
 
 
 <dependency>
-    <groupId>io.appium</groupId>
-    <artifactId>java-client</artifactId>
-    <version>8.5.1</version>
+<groupId>com.ibm.aug</groupId>
+<artifactId>com.ibm.aug.Appium</artifactId>
+<version>0.0.1-SNAPSHOT</version>
 </dependency>
 
+	</dependencies>
 
 
 	</dependencies>
