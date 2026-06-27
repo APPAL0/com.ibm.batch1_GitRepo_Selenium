@@ -1,0 +1,12 @@
+<suite name="Suite">
+<listeners>
+<!--  <listener class-name="testNGExample.Transform"></listener>  -->
+<listener class-name="testNGExample.ListnerExample"/>
+</listeners>
+<test thread-count="5" name="Test">
+<classes>
+<class name="retryExample.AmazonTest"/>
+<class name="retryExample.GoogleTest"/>
+</classes>
+</test>
+</suite>
