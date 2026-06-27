@@ -38,7 +38,7 @@ public class AmazonSearchItem {
         
         //close the application
         driver.close();  // -------- close the current browser instance
-        //driver.quit();    -------- close all the browser instance which are opened by driver
+        driver.quit();    -------- close all the browser instance which are opened by driver
     }
     
     @BeforeTest
