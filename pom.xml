@@ -82,11 +82,7 @@
 </dependency>
 
 
-<dependency>
-<groupId>com.ibm.aug</groupId>
-<artifactId>com.ibm.aug.Appium</artifactId>
-<version>0.0.1-SNAPSHOT</version>
-</dependency>
+
 
 
 
