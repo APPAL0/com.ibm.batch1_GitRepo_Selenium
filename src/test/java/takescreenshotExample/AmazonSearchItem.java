@@ -2,6 +2,7 @@ package takescreenshotExample;
 
 import java.io.File;
 import java.io.IOException;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
@@ -49,6 +50,9 @@ public class AmazonSearchItem {
         //app1
         //driver = WebDriverManager.chromedriver().create();
         
+	ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless");
+		
         
         //app2
         WebDriverManager.chromedriver().setup();
