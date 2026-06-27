@@ -1,6 +1,6 @@
 package nopComm_Exercise;
 
-import java.util.concurrent.TimeUnit;
+
 
 import java.time.Duration;
 
@@ -23,7 +23,7 @@ public class NOPCustomer extends BaseTest {
 		
 		driver.findElement(By.xpath("//input[@id='Email']")).clear();
 		//Thread.sleep(2000);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		driver.findElement(By.xpath("//input[@id='Email']")).sendKeys("admin@yourstore.com");
 		
