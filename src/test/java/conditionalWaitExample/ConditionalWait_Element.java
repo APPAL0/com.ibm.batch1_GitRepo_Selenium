@@ -1,6 +1,8 @@
 package conditionalWaitExample;
 
-import java.util.concurrent.TimeUnit;
+
+
+import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -53,7 +55,9 @@ public class ConditionalWait_Element {
         driver.get("http://only-testing-blog.blogspot.com/2014/01/textbox.html");
         //Thread.sleep(4000);
         
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+      
+
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 //      Thread.sleep(10000);
         
     }
